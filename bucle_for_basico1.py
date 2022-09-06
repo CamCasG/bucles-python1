@@ -34,6 +34,6 @@ for i in range(2018, 0, -4):
 lowNum = 4
 highNum = 16
 mult = 2
-for i in range(lowNum, highNum):
+for i in range(lowNum, highNum+1):
     if(i % mult == 0):
         print(i)
